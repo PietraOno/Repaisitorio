@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    background-color: rgb(233, 245, 255);
+}
+
+header {
+    background-color:#377ac6;
+    text-align: center;
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 54px;
+    text-shadow: 1px 1px 2px black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav {
+    background-color: #355c8a;
+    text-align: center;
+    padding: 2px 0px 5px 0px;;
+}
+
+nav a {
+color: rgb(224, 239, 255);
+padding-left: 15px;
+padding-right: 15px;
+text-decoration: wavy underline;
+}
+
+nav a:hover {
+    color: yellow;
+    font-weight: bold;
+}
+
+#container {
+padding: 50px 100px 50px 100px;
+text-align: center;
+}
+
+h1 {
+    font-family: 'serif';
+    font-size: 50px;
+    color: #134073;
+}
+
+#img-home{
+    width: 80%;
+}
+
+footer {
+    background-color: #436b9a;
+    opacity: 80%;
+    color: rgb(219, 237, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: yellow;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+#img-avatar {
+    height: 215px;
+    width: 215px;
+}
+
+table {
+    border: 2px dotted #377ac6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+th {
+    background-color: #2567b1;
+    color: rgb(239, 245, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #a3ceff;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+#dados-contato a {
+    text-decoration: none;
+    color: #355c8a;
+}
+
+#dados-contato a:hover {
+    font-weight: bold;
+    color: yellowgreen;
+}
